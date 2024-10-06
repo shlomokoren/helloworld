@@ -32,4 +32,5 @@ jobs:
         run: |
           git config user.name "GitHub Action"
           git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${TEMPHELLOWORLD}@github.com/${{ github.repository }}.git
           git push --follow-tags
