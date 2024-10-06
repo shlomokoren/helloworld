@@ -1,6 +1,6 @@
 [tool.invest_data]
 name = "invest_data"
-version = "version = "version = "0.0.1"""  # This will be bumped automatically
+version = "version = "version = "0.0.2"""  # This will be bumped automatically
 description = "Tools inform you sell/buy stocks according to sma150 mooving average"
 authors = ["Koren Shlomo <shlomo.koren@gmail.com>"]
 
