@@ -20,6 +20,11 @@ jobs:
       - name: Install bump2version
         run: pip install bump2version
 
+      - name: set git user
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
+
       - name: Bump patch version
         run: bump2version patch
 
